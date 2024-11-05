@@ -1,0 +1,11 @@
+command: [
+  "streamlit",
+  "run",
+  "main.py"
+]
+env:
+  - name: "STREAMLIT_GATHER_USAGE_STATS"
+    value: "false"
+  - name: "SERVING_ENDPOINT"
+    valueFrom: "serving-endpoint"
+
